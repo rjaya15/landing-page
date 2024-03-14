@@ -1,0 +1,93 @@
+body {
+  background-image: url("https://wallpapercave.com/wp/wp4850112.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  color: #333;
+}
+/* Reset some default styles for consistency */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a background color and set text color for the body */
+body {
+  background-color: #f2f2f2;
+  color: #333;
+  font-family: "Arial", sans-serif;
+}
+
+/* Style the screen container */
+.screen {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Style the text inside the screen */
+.text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Style the hero section */
+.hero {
+  background-color: #fff;
+  padding: 20px;
+}
+
+/* Style the navigation bar */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.nav__logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav__item {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+/* Style the hero inner content */
+.hero__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style the hero information */
+.hero__info {
+  max-width: 600px;
+}
+
+/* Style the download button */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Hover effect for the button */
+.btn:hover {
+  background-color: #45a049;
+}
